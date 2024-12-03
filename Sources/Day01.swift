@@ -11,7 +11,7 @@ struct Day01: AdventDay {
   // Save your data in a corresponding text file in the `Data` directory.
   var data: String
 
-  // Splits input data into its component parts and convert from string.
+  /// Splits input data into two arrays of integers for left and right columns.
   var entities: (left: [Int], right: [Int]) {
     var left: [Int] = []
     var right: [Int] = []
